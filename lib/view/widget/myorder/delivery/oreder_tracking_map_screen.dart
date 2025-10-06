@@ -13,9 +13,9 @@ class OrederTrackingMapScreen extends StatelessWidget {
     Get.put(OrderTrackingMapController());
     return Scaffold(
       appBar: AppBar(
-        title: Text("Tracking Your Order"),
+        title: Text("Tracking"),
         centerTitle: true,
-        backgroundColor: AppColor.backgroundcolorcontainer,
+        backgroundColor: AppColor.colorButtonNavigbar,
       ),
       body: GetBuilder<OrderTrackingMapController>(
         builder: (controller) {
