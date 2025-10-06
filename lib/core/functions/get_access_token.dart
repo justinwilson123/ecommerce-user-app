@@ -1,4 +1,3 @@
-import 'package:get/get.dart';
 import 'package:googleapis_auth/auth_io.dart';
 import 'package:googleapis_auth/googleapis_auth.dart';
 
@@ -9,6 +8,6 @@ class GetAccessToken {
   ];
 
   Future<String> getAccessToken() async {
-    return Future.value("kjadf");
+    return Future.value("falfk");
   }
 }
