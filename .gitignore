@@ -44,6 +44,6 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 
-lib/core/functions/get_access_token.dart
+# lib/core/functions/get_access_token.dart
 android/app/google-services.json
-lib/core/constant/service_account.dart
+# lib/core/constant/service_account.dart
